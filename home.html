@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LuxeLift Lash Elegance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<style>
+    .price-container {
+        font-size: 24px; /* Adjust the font size as needed */
+        font-weight: bold;
+        color: #336699; /* Choose a color that fits your design */
+        text-align: center; /* Center the text horizontally */
+        margin-top: 20px; /* Adjust the top margin as needed */
+    }
+
+    .discounted-price {
+        text-decoration: line-through; /* Add a strikethrough for the original price */
+        color: #f90000; /* Adjust the color for the original price */
+        margin-right: 10px; /* Add some space between the original and discounted prices */
+    }
+
+    .final-price {
+        color: #00ff0d; /* Adjust the color for the discounted price */
+    }
+</style>
+<style>
+    /* Adjust the width of the text container as needed */
+    .text-container {
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      right: 3%;
+      transform: translateY(-50%);
+      font-size: 16px; /* Adjust the font size as needed */
+      font-family: 'Arial', sans-serif; /* Adjust the font family as needed */
+    }
+  </style>
+ <style>
+    .glow {
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        to {
+            text-shadow: 0 0 10px #FF69B4, 0 0 20px #FF69B4, 0 0 30px #FF69B4;
+        }
+    }
+</style>
+<style>
+    h2:hover {
+color: #4B0082;
+animation: bounce 0.5s ease;
+}
+
+h3 {
+font-family: 'Arial', sans-serif;
+font-size: 1.5em;
+line-height: 1.5;
+color: #333;
+max-width: 800px;
+margin: 0 auto;
+}
+
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+transform: translateY(0);
+}
+40% {
+transform: translateY(-15px);
+}
+60% {
+transform: translateY(-7px);
+}
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h2, h3 {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+    <div class="w3-top">
+        <div class="logo-display">
+            <img src="displaylogo.png" alt="displaylogo" class="spinning-logo">
+        </div>
+    </div>
+    
+    <style>
+        .logo-display {
+            position: fixed;
+            top: 10px; /* Adjust the distance from the top */
+            left: 10px; /* Adjust the distance from the left */
+        }
+    
+        .spinning-logo {
+            width: auto; /* Allow the width to adjust proportionally */
+            max-width: 300px; /* Set the maximum width to limit scaling */
+            height: auto; /* Allow the height to adjust proportionally */
+            max-height: 300px; /* Set the maximum height to limit scaling */
+            animation: spin 4s linear infinite; /* Adjust the duration as needed */
+        }
+    
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px; background-color: #FF69B4;" >
+
+    <div class="w3-display-container">
+        <img class="w3-image" src="displaypic.png" alt="Me" width="1500" height="600">
+        
+        <!-- Content associated with the first display picture -->
+        <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center glow">
+            <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge" style="font-family: 'Dancing Script', cursive;">LuxeLift Lash Elegance</h1>
+        </div>
+    </div>
+  
+    <!-- Second Display Picture with Text on the right side -->
+    <div class="w3-display-container">
+        <img class="w3-image" src="displaypic2.png" alt="Me" width="1500" height="600">
+        
+        <!-- Text on the right side of the second display picture -->
+        <div class="text-container">
+            <div style="text-align: center; margin-bottom: 20px; animation: fadeInDown 1.5s ease-out;">
+                <h2 style="color: #FF69B4; font-size: 2em; margin-bottom: 10px;">Welcome to LuxeLift Lash Elegance</h2>
+                <h3 style="font-family: 'Arial', sans-serif; font-size: 1.5em; line-height: 1.5; color: #333; max-width: 800px; margin: 0 auto;">
+                  Our mission is to empower individuals with the captivating beauty of lifted lashes, enhancing their natural allure. Dedicated to excellence, innovation, and personalized care, LuxeLift ensures every visit is a luxurious experience, where beauty meets precision.
+                  <br><br>
+                  Elevate Your Gaze with LuxeLift Lash Elegance! Indulge in the ultimate lash transformation, experiencing the artistry of lifted lashes that frame and accentuate your eyes, creating a look that's both natural and glamorous.
+                </h3>
+              </div>         
+        </div>
+    </div>
+    <div class="loader">
+    <h4 class="w3-center" style="margin-bottom: 50px;">
+        <span style="--i:1;">P</span>
+        <span style="--i:2;">R</span>
+        <span style="--i:3;">O</span>
+        <span style="--i:4;">D</span>
+        <span style="--i:5;">U</span>
+        <span style="--i:6;">C</span>
+        <span style="--i:7;">T</span>
+        <span style="--i:8;">S</span>
+    </h4>
+    </div>
+    <style>
+        .loader span {
+            animation: animate 2s ease-in-out infinite;
+            animation-delay: calc(0.1s * var(--i));
+            animation-play-state: paused;
+        }
+        .loader:hover span {
+            animation-play-state: running;
+        }
+        @keyframes animate {
+            0%,40%,100% {
+                transform: translateY(0);
+            }
+            20%
+            {
+                transform: translateY(-50px);
+            }
+        }
+        h4 {
+            position: relative;
+            font-size: 6em;
+            letter-spacing: 15px;
+            color: rgb(251, 0, 126);
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+            outline: none;
+            animation: animate 5s linear infinite;
+        }
+
+    </style>
+    <div class="slider-container">
+        <div class="w3-row slider">
+          <!-- Slide 1 -->
+          <div class="w3-col l3 m4 slider-item">
+            <img src="lash.jpg" alt="pic1" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 2 -->
+          <div class="w3-col l3 m4 slider-item">
+            <img src="lashliftbrush.jpg" alt="pic2" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash Lift Brush</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 3 -->
+          <div class="w3-col l3 m4 slider-item">
+            <img src="lashliftglue.jpg" alt="pic3" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash Lift Glue</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 4 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="conditionerwithkeratin.jpg" alt="pic4" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash Lift Keratin</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 5 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="lashlifttool.jpg" alt="pic5" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash Lift Tool</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 6 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="lotion.jpg" alt="pic6" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Lash Lift Lotion</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 7 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="siliconeshield.jpg" alt="pic7" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Silicone Shield</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 8 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="eyepads.jpg" alt="pic8" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Eye Pads</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+      
+          <!-- Slide 9 -->
+          <div class="w3-col l3 m4 slider-item" style="display: none;">
+            <img src="ellebana.jpg" alt="pic9" style="width: 100%; border-radius: 20px;">
+            <h3 style="color:white; font-size: 30px;">Keratin Adhesive</h3>
+            <span class="star active star-rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <div class="price-container">
+                <span class="discounted-price">$00.00</span>
+                <span class="final-price">$00.00</span>
+            </div>
+            <p><button class="w3-button w3-light-grey w3-block buy-button" style="border-radius: 30px;" onclick="showMessage()"> <i class="fas fa-shopping-cart"></i> Buy Now</button></p>
+          </div>
+        </div>
+        <script>
+            function showMessage() {
+                alert("Thank you for your purchase! Your transaction is complete.");
+            }
+        </script>
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+      </div>
+
+      <div class="new-section">
+        <h4 class="w3-center" style="margin-bottom: 20px;">BEFORE / AFTER</h4>
+        <div class="w3-row">
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="before1.png" alt="Before Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="after1.png" alt="After Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="before2.png" alt="Before Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="after2.png" alt="After Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="before3.png" alt="Before Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="after3.png" alt="After Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="before4.png" alt="Before Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+          <div class="w3-col m6 w3-padding">
+            <img class="image" src="after4.png" alt="After Image" style="width: 80%; max-height: 200px; border-radius: 10px; object-fit: cover; margin: auto; display: block;">
+          </div>
+          <div class="w3-col m12 w3-padding">
+            <hr class="section-divider">
+            <p class="business-description" style="text-align: left; font-size: 20px;">
+                Introducing <b>LuxeLift Lash Elegance</b> – Elevate Your Gaze!
+                <br>
+                Discover the Art of Effortless Beauty with <b>LuxeLift Lash Elegance!</b> 
+                <br>
+                <br>
+                <b>What Sets Us Apart:</b><br>
+                At <b>LuxeLift</b>, we specialize in delivering exquisite lash lift services that enhance your natural beauty and add a touch of elegance to your look. Our skilled lash artists are dedicated to creating a personalized experience for each client, ensuring you leave with lashes that captivate and define your unique style.
+                <br>
+                <br>
+                <b>Why LuxeLift Lash Elegance?</b>
+                <br>
+                <b>Expert Lash Artists:</b> Our talented professionals are passionate about perfecting the art of lash lifts, providing you with stunning results.
+                <b>Premium Products:</b> We exclusively use high-quality, cruelty-free products to ensure the health and beauty of your lashes.<br>
+                <b>Personalized Experience:</b> Your journey with us begins with a thorough consultation, tailoring our services to suit your individual preferences and style.
+            </p>
+            <p class="business-location" style="text-align: left; font-size: 20px;">
+                <b><i class="fas fa-map-marker-alt"></i> Sample Location:</b>
+                <br>
+                Visit our luxurious lash studio at:
+                LuxeLift Lash Elegance
+                123 Main Street, Suite 456
+                City, State, ZIP
+                <br>
+                <br>
+                <b>Contact Information:</b>
+                For appointments and inquiries, call or text us at:
+                <br>
+                <b><i class="fas fa-phone"></i> Phone:</b> <u>(555) 123-4567</u>
+                <br>
+                <b><i class="fas fa-envelope"></i> Email:</b> <u>info@luxeliftlash.com</u>
+                <br>
+                <br>
+                <b>Follow Us on Social Media:</b>
+                Stay updated on the latest trends, promotions, and lash inspiration!
+                <br>
+                <b><i class="fab fa-instagram"></i> Instagram:</b> <u>@luxeliftlash</u>
+                <br>
+                <b><i class="fab fa-facebook"></i> Facebook:</b> <u>/LuxeLiftLashElegance</u>
+            </p>
+          </div>
+        </div>
+      </div>
+      <style>
+        .image {
+          width: 80%;
+          max-height: 200px;
+          border-radius: 10px;
+          object-fit: cover;
+          margin: auto;
+          display: block;
+          transition: transform 0.3s ease-in-out;
+        }
+      
+        .image:hover {
+          transform: scale(1.2);
+        }
+      </style>
+      <style>
+      /* Style for the star icon */
+      .star-rating {
+        font-size: 30px;
+        color: #ffd700; /* Set the star color to yellow */
+      }
+  
+      /* Style for an inactive star */
+      .star-rating .star {
+        display: inline-block;
+        margin-right: 5px; /* Adjust spacing between stars */
+      }
+  
+      /* Style for an active star */
+      .star-rating .star.active {
+        color: #ffcc00; /* Set the active star color to a different shade of yellow */
+      }
+    </style>
+      <style>
+         .slider-item:hover {
+      transform: scale(1.1);
+    }
+       .slider-container {
+          width: 80%;
+          margin: auto;
+          overflow: hidden;
+          position: relative;
+        }
+    
+        .slider {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+          margin-left: 150px;  
+          margin-top: 25px; 
+          margin-bottom: 10px;
+        }
+    
+        .slider-item {
+          flex: 0 0 auto;
+          margin: 0 15px;
+          box-sizing: border-box;
+          transition: transform 0.3s ease-in-out;
+        }
+    
+        .prev, .next {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 24px;
+          cursor: pointer;
+          color: white;
+          background-color: #333;
+          border: none;
+          padding: 10px;
+          outline: none;
+          transition: opacity 0.3s ease-in-out;
+          opacity: 0.7;
+        }
+    
+        .prev:hover, .next:hover {
+          opacity: 1;
+        }
+    
+        .prev {
+          left: 10px;
+        }
+    
+        .next {
+          right: 10px;
+        }
+            </style>
+           <script>
+         let slideIndex = 0;
+    const slides = document.querySelectorAll('.slider-item');
+    const totalSlides = slides.length;
+    
+    function showSlides() {
+      for (let i = 0; i < totalSlides; i++) {
+        if (i < slideIndex || i >= slideIndex + 3) {
+          slides[i].style.display = 'none';
+        } else {
+          slides[i].style.display = 'block';
+        }
+      }
+    }
+    
+    function changeSlide(n) {
+      slideIndex += n;
+      if (slideIndex > totalSlides - 3) {
+        slideIndex = 0;
+      } else if (slideIndex < 0) {
+        slideIndex = totalSlides - 3;
+      }
+      showSlides();
+    }
+    
+    showSlides();
+          </script>
+</header>
+</body>
+</html>
